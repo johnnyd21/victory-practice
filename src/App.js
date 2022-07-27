@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Data Dashboard</h1>
      <VictoryChart
-     domainPadding = {30}
+     domainPadding = {20}
      theme = {VictoryTheme.material}>
         <VictoryAxis
         tickValues = {[1,2,3,4]}
